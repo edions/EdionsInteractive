@@ -19,9 +19,9 @@ body {
 
 .header {
     position: absolute;
-    background-color: blue;
+    /* background-color: blue; */
     width: 100%;
-    height: 130px;
+    height: 80px;
 }
 
 .nav-options{
@@ -35,4 +35,19 @@ body {
 .icon img {
     width: 40px;
     height: 40px;
+}
+
+.search {
+    padding: 14px 16px;
+}
+
+
+/* CONTENT */
+
+.content {
+    position: absolute;
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
 }
