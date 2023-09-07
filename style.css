@@ -50,4 +50,35 @@ body {
     width: 100%;
     height: 100%;
     background-color: aquamarine;
+    z-index: 1;
+}
+
+.sample-picture {
+    top: 20px;
+    left: 50px;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: skyblue;
+    z-index: 2;
+}
+
+.headline {
+    top: 50px;
+    right: 50px;
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    background-color: bisque;
+    z-index: 2;
+}
+
+.head-description {
+    top: 260px;
+    right: 50px;
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    background-color: lightblue;
+    z-index: 2;
 }
