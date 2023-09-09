@@ -69,7 +69,7 @@ body {
     position: absolute;
     width: 800px;
     height: 200px;
-    background-color: bisque;
+    background-color: black;
     z-index: 2;
 }
 
@@ -81,4 +81,18 @@ body {
     height: 200px;
     background-color: lightblue;
     z-index: 2;
+}
+
+/* TEXT SPAN */
+.headline-text-1 {
+    color: #bc3131;
+    font: 700 64px "Inter", sans-serif;
+}
+.headline-text-2 {
+    color: #c4c4c4;
+    font: 700 64px "Inter", sans-serif;
+}
+.headline-text-3 {
+    color: #bc3131;
+    font: 700 64px "Inter", sans-serif;
 }
