@@ -124,3 +124,10 @@ body {
     top: 95px;
     z-index: 3;
 }
+
+.home-polygon {
+    position: absolute;
+    right: 70px;
+    top: 300px;
+    overflow: visible;
+}
