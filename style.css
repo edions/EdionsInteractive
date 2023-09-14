@@ -49,37 +49,36 @@ body {
     margin-top: 80px;
     width: 100%;
     height: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     z-index: 1;
 }
 
 .sample-picture {
-    top: 20px;
-    left: 50px;
+    top: 60px;
+    left: 200px;
     position: absolute;
-    width: 400px;
-    height: 500px;
+    width: 233px;
+    height: 485px;
     background-color: skyblue;
     z-index: 2;
 }
 
 .headline {
-    top: 100px;
+    top: 125px;
     right: 50px;
     position: absolute;
     width: 700px;
     height: 160px;
-    background-color: black;
+    font: 400 20px "Inter", sans-serif;
     z-index: 2;
 }
 
 .head-description {
-    top: 260px;
+    top: 270px;
     right: 100px;
     position: absolute;
     width: 650px;
     height: 100px;
-    background-color: black;
     color: #c4c4c4;
     text-align: left;
     font: 400 20px "Inter", sans-serif;
@@ -121,7 +120,7 @@ body {
     width: 155px;
     height: 0px;
     right: 110px;
-    top: 95px;
+    top: 120px;
     z-index: 3;
 }
 
@@ -130,4 +129,18 @@ body {
     right: 70px;
     top: 300px;
     overflow: visible;
+}
+
+.home-rectangle-2 {
+    border-style: solid;
+    border-color: #bc3131;
+    border-width: 5px;
+    width: 233px;
+    height: 485px;
+    position: absolute;
+    left: 60px;
+    top: 90px;
+    transform-origin: 0 0;
+    transform: rotate(-22.758deg) scale(1, 1);
+    z-index: 1;
 }
