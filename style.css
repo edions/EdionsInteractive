@@ -85,6 +85,12 @@ body {
     z-index: 2;
 }
 
+.getting-started-btn {
+    position: absolute;
+    top: 430px;
+    right: 500px;
+}
+
 /* TEXT SPAN */
 .headline-text-1 {
     color: #bc3131;
