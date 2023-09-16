@@ -87,8 +87,19 @@ body {
 
 .getting-started-btn {
     position: absolute;
-    top: 430px;
+    top: 400px;
     right: 500px;
+}
+
+.getting-started-btn button {
+    background-color: #bc3131;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 /* TEXT SPAN */
@@ -111,8 +122,8 @@ body {
     border-style: solid;
     border-color: #d9d9d9;
     border-width: 5px;
-    width: 130px;
-    height: 130px;
+    width: 115px;
+    height: 115px;
     position: absolute;
     right: 540px;
     z-index: 2;
