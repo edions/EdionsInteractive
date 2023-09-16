@@ -234,21 +234,21 @@ body {
     /* background-color: aqua; */
 }
 
-.tri-circle {
+/* .tri-circle {
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 280px;
     left: 180px;
     top: 20px;
     background-color: aqua;
-}
+} */
 
 .about-headline {
     position: absolute;
     width: 250px;
     height: 50px;
     left: 100px;
-    top: 280px;
+    top: 310px;
 }
 
 .about-headline-text-1 {
@@ -266,7 +266,7 @@ body {
     width: 560px;
     height: 140px;
     left: 100px;
-    top: 330px;
+    top: 360px;
     text-align: left;
     color: #c4c4c4;
     font: 19px "Inter", sans-serif;
@@ -315,34 +315,34 @@ body {
     background: #bc3131;
     border-radius: 50%;
     opacity: 0.699999988079071;
-    width: 274.51px;
-    height: 232.12px;
+    width: 219.608px;
+    height: 185.696px;
     position: absolute;
-    left: 270.33px;
-    top: 232.75px;
     transform-origin: 0 0;
     transform: rotate(13.536deg) scale(1, 1);
+    left: 90.33px;
+    top: 52.75px;
 }
 
 .about-ellipse2 {
     background: #bc3131;
     border-radius: 50%;
     opacity: 0.699999988079071;
-    width: 283px;
-    height: 249px;
+    width: 226.4px;
+    height: 199.2px;
     position: absolute;
-    left: 396.21px;
-    top: 189px;
+    left: 216.21px;
+    top: 9px;
 }
 .about-ellipse3 {
     background: #bc3131;
     border-radius: 50%;
     opacity: 0.699999988079071;
-    width: 283px;
-    height: 249px;
+    width: 226.4px;
+    height: 199.2px;
     position: absolute;
-    left: 319.21px;
-    top: 297px;
+    left: 139.21px;
+    top: 117px;
 }
 
 .home-line {
