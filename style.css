@@ -44,7 +44,7 @@ body {
 
 /* CONTENT */
 
-.content {
+.page-container {
     position: absolute;
     margin-top: 80px;
     width: 100%;
@@ -121,6 +121,25 @@ body {
     font: 700 64px "Inter", sans-serif;
 }
 
+/* CLIENT */
+.heading-client {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 600px;
+    height: 100px;
+    z-index: 1;
+}
+
+.heading-client-text-1 {
+    color: #bc3131;
+    font: 700 36px "Inter", sans-serif;
+}
+.heading-client-text-2 {
+    color: #c4c4c4;
+    font: 700 42px "Inter", sans-serif;
+}
+
 /* SHAPE */
 .home-ellipse {
     border-radius: 50%;
@@ -150,6 +169,12 @@ body {
     position: absolute;
     right: 70px;
     top: 300px;
+    overflow: visible;
+}
+
+.client-polygon {
+    position: absolute;
+    left: 40px;
     overflow: visible;
 }
 
