@@ -161,6 +161,16 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+.client-profile-1,
+.client-profile-2,
+.client-profile-3 {
+    position: relative;
+    background: white;
+    width: 100px;
+    height: 100px;
+    margin-inline: 40px;
+}
+
 /* SHAPE */
 .home-ellipse {
     border-radius: 50%;
