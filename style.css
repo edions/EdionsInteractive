@@ -151,6 +151,8 @@ body {
 .card-2,
 .card-3 {
     position: relative;
+    display: flex;
+    justify-content: center;
     background: #1b1b1b;
     border-style: solid;
     border-color: #000000;
@@ -165,10 +167,11 @@ body {
 .client-profile-2,
 .client-profile-3 {
     position: relative;
+    top: 150px;
     background: white;
     width: 100px;
     height: 100px;
-    margin-inline: 40px;
+    margin-inline: 30px;
 }
 
 /* SHAPE */
