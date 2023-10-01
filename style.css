@@ -167,10 +167,21 @@ body {
 .client-profile-2,
 .client-profile-3 {
     position: relative;
-    top: 150px;
+    top: 160px;
     background: white;
     width: 100px;
     height: 100px;
+    margin-inline: 30px;
+}
+
+.client-feedback-1,
+.client-feedback-2,
+.client-feedback-3 {
+    position: absolute;
+    top: 10px;
+    background: white;
+    width: 250px;
+    height: 140px;
     margin-inline: 30px;
 }
 
