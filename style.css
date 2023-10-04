@@ -121,10 +121,11 @@ body {
 /* CLIENT */
 .heading-client {
     position: absolute;
-    top: 60px;
-    left: 300px;
+    top: 30px;
+    left: 250px;
     width: 600px;
     height: 100px;
+    /* background-color: #FF5733; */
     z-index: 1;
 }
 
@@ -140,7 +141,7 @@ body {
 .card-container {
     display: flex;
     position: absolute;
-    top: 260px;
+    top: 220px;
     background-color: aquamarine;
     justify-content: center;
     width: 100%;
@@ -220,6 +221,7 @@ body {
 .client-polygon {
     position: absolute;
     left: 40px;
+    /* background-color: wheat; */
     overflow: visible;
 }
 
