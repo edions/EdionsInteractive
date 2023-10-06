@@ -169,10 +169,22 @@ body {
 .client-profile-3 {
     position: relative;
     top: 160px;
-    background: white;
+    display: flex;
+    justify-content: center;
+    /* background: white; */
+    border-radius: 50%;
     width: 100px;
     height: 100px;
     margin-inline: 30px;
+    overflow: hidden;
+}
+
+.client-profile-1 img,
+.client-profile-2 img,
+.client-profile-3 img {
+    position: relative;
+    width: 100px;
+    height: 100px;
 }
 
 .client-feedback-1,
@@ -183,17 +195,6 @@ body {
     background: white;
     width: 250px;
     height: 140px;
-    margin-inline: 30px;
-}
-
-.client-profile-1 img,
-.client-profile-2 img,
-.client-profile-3 img {
-    position: relative;
-    top: 10px;
-    background: white;
-    width: 100px;
-    height: 20px;
     margin-inline: 30px;
 }
 
