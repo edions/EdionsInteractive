@@ -169,13 +169,13 @@ body {
 .client-profile-2,
 .client-profile-3 {
     position: relative;
-    top: 160px;
+    top: 180px;
     display: flex;
     justify-content: center;
     /* background: white; */
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin-inline: 30px;
     overflow: hidden;
 }
@@ -184,8 +184,8 @@ body {
 .client-profile-2 img,
 .client-profile-3 img {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .client-feedback-1,
