@@ -146,7 +146,7 @@ body {
     background-color: aquamarine;
     justify-content: center;
     width: 100%;
-    height: 300px;
+    height: 350px;
 }
 
 .card-1,
@@ -197,6 +197,17 @@ body {
     width: 250px;
     height: 140px;
     margin-inline: 30px;
+}
+
+.client-name-1,
+.client-name-2,
+.client-name-3 {
+    position: absolute;
+    top: 270px;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
 }
 
 /* SHAPE */
