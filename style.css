@@ -143,7 +143,7 @@ body {
     display: flex;
     position: absolute;
     top: 200px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     justify-content: center;
     width: 100%;
     height: 350px;
@@ -204,10 +204,19 @@ body {
 .client-name-3 {
     position: absolute;
     top: 270px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     width: 100px;
     height: 100px;
+}
+
+.username {
+    color: #bc3131;
+    font: 700 27px "Inter", sans-serif;
+}
+
+.positions {
+    color: #c4c4c4;
+    font: 700 17px "Inter", sans-serif;
 }
 
 /* SHAPE */
