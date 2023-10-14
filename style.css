@@ -227,7 +227,7 @@ body {
 .home-ellipse {
     border-radius: 50%;
     border-style: solid;
-    border-color: #d9d9d9;
+    border-color: #6d6b6b;
     border-width: 3px;
     width: 115px;
     height: 115px;
@@ -239,7 +239,7 @@ body {
 .client-ellipse {
     border-radius: 50%;
     border-style: solid;
-    border-color: #d9d9d9;
+    border-color: #6d6b6b;
     border-width: 3px;
     width: 115px;
     height: 115px;
@@ -300,4 +300,18 @@ body {
     right: 350px;
     transform-origin: 0 0;
     transform: rotate(30.652deg) scale(1, 1);
+}
+
+.client-line {
+    border-style: solid;
+    border-color: #6d6b6b;
+    border-width: 3px 0 0 0;
+    width: 220px;
+    height: 0px;
+    position: absolute;
+    left: calc(50% - 150px);
+    top: 140px;
+    transform-origin: 0 0;
+    transform: rotate(0.424deg) scale(1, 1);
+    z-index: 3;
 }
