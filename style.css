@@ -223,6 +223,44 @@ body {
     font: 700 17px "Inter", sans-serif;
 }
 
+/* ABOUT */
+
+.shaper-container {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 120px;
+    top: 30px;
+    background-color: aqua;
+}
+
+.tri-circle {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 180px;
+    top: 20px;
+    background-color: aqua;
+}
+
+.about-headline {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 120px;
+    top: 280px;
+    background-color: aqua;
+}
+
+.about-text {
+    position: absolute;
+    width: 500px;
+    height: 140px;
+    left: 120px;
+    top: 340px;
+    background-color: aqua;
+}
+
 /* SHAPE */
 .home-ellipse {
     border-radius: 50%;
